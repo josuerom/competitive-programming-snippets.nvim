@@ -1,7 +1,7 @@
-{ // @author: josuerom
+{
   "name": "snippets-cp.nvim",
   "engines": {
-    "vscode": "^1.11.0"
+    "vscode": "^1.61.0"
   },
   "contributes": {
     "snippets": [
@@ -14,48 +14,12 @@
         "path": "./snippets/cpp.json"
       },
       {
-        "language": "python",
-        "path": "./snippets/python.json"
-      },
-      {
         "language": "java",
         "path": "./snippets/java.json"
       },
       {
-        "language": "ruby",
-        "path": "./snippets/ruby.json"
-      },
-      {
-      "language": "elixir",
-      "path": "./snippets/elixir.json"
-      },
-      {
-        "language": "fortran",
-        "path": "./snippets/fortran.json"
-      },
-      {
-        "language": "go",
-        "path": "./snippets/go.json"
-      },
-      {
-        "language": "php",
-        "path": "./snippets/php.json"
-      },
-      {
-        "language": "ruby",
-        "path": "./snippets/ruby.json"
-      },
-      {
-        "language": "rust",
-        "path": "./snippets/rust.json"
-      },
-      {
-        "language": "haskell",
-        "path": "./snippets/haskell.json"
-      },
-      {
-        "language": "swift",
-        "path": "./snippets/swift.json"
+        "language": "python",
+        "path": "./snippets/python.json"
       },
       {
         "language": [
@@ -65,7 +29,7 @@
           "typescriptreact"
         ],
         "path": "./snippets/javascript.json"
-      },
+      }
     ]
   }
 }
