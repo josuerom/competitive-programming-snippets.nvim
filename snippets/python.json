@@ -1,0 +1,65 @@
+{
+	"Single integer input": {
+		"prefix": "ii",
+		"body": [
+			"int(input())",
+			"$0"
+		],
+		"description": "Quick single int input."
+	},
+
+	"Single float input": {
+		"prefix": "fi",
+		"body": [
+			"float(input())",
+			"$0"
+		],
+		"description": "Quick single float input."
+	},
+
+	"Line integer input": {
+		"prefix": "li",
+		"body": [
+			"[int(k) for k in input().split()]",
+			"$0"
+		],
+		"description": "Quick line int input."
+	},
+
+	"Line float input": {
+		"prefix": "lf",
+		"body": [
+			"[float(k) for k in input().split()]",
+			"$0"
+		],
+		"description": "Quick line float input."
+	},
+
+	"I/O template": {
+		"prefix": "io",
+		"body": [
+			"import sys",
+			"sys.stdin=open('input.txt', 'r')",
+			"sys.stdout=open('output.txt', 'w')",
+			"",
+			"$0"
+		],
+		"description": "I/O text files for test cases."
+	},
+
+	"Quick print": {
+		"prefix": "pr",
+		"body": [
+			"print($0)"
+		],
+		"description": "Print fn on-the-go."
+	},
+
+	"For range template": {
+		"prefix": "fr",
+		"body": [
+			"for i in range($0)"
+		],
+		"description": "Quick for range loop."
+	}
+}
