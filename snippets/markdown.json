@@ -1,0 +1,30 @@
+{
+    "Shell.code": {
+        "prefix": "msb",
+        "body": [
+            "```bash\n ${1} \n```"
+        ],
+        "description": "Bash code tags"
+    },
+    "Java.code": {
+        "prefix": "msj",
+        "body": [
+            "```java\n ${1} \n```"
+        ],
+        "description": "Java code tags"
+    },
+    "JavaScrip.code": {
+        "prefix": "msjs",
+        "body": [
+            "```javascript\n ${1} \n```"
+        ],
+        "description": "JavaScript code tags"
+    },
+    "Css.code": {
+        "prefix": "msc",
+        "body": [
+            "```css\n ${1} \n```"
+        ],
+        "description": "Css code tags"
+    }
+}
