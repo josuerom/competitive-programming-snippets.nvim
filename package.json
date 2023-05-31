@@ -22,10 +22,6 @@
         "path": "./snippets/java.json"
       },
       {
-        "language": "html",
-        "path": "./snippets/ejs.json"
-      },
-      {
         "language": "ruby",
         "path": "./snippets/ruby.json"
       },
@@ -36,10 +32,6 @@
       {
         "language": "fortran",
         "path": "./snippets/fortran.json"
-      },
-      {
-        "language": "lua",
-        "path": "./snippets/lua.json"
       },
       {
         "language": "go",
@@ -66,26 +58,6 @@
         "path": "./snippets/swift.json"
       },
       {
-        "language": "shellscript",
-        "path": "./snippets/shell.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.json"
-      },
-      {
-        "language": ["plaintex", "tex"],
-        "path": "./snippets/latex.json"
-      },
-      {
-        "language": ["html", "jade", "pug"],
-        "path": "./snippets/html.json"
-      },
-      {
-        "language": ["css", "scss", "sass", "less", "stylus"],
-        "path": "./snippets/css.json"
-      },
-      {
         "language": [
           "javascript",
           "typescript",
@@ -93,22 +65,6 @@
           "typescriptreact"
         ],
         "path": "./snippets/javascript.json"
-      },
-      {
-        "language": ["javascriptreact", "typescriptreact"],
-        "path": "./snippets/apollo.json"
-      },
-      {
-        "language": ["typescript", "typescriptreact"],
-        "path": "./snippets/typescript.json"
-      },
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/react.json"
-      },
-      {
-        "language": "typescriptreact",
-        "path": "./snippets/react-ts.json"
       },
     ]
   }
