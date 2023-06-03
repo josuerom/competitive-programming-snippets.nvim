@@ -39,7 +39,7 @@
   },
 
   "read string": {
-  "prefix": "rl",
+  "prefix": "rln",
   "body": [
   "getline(cin, s$1);"
   ]
@@ -48,7 +48,7 @@
   "for (int i = 0; i < n; i++)": {
   "prefix": "fori",
   "body": [
-  "for (int ${1:i} = 0; ${1:i} < ${2:n}; ${1:i}++) {",
+  "for (int ${1:i} = 0; ${1:i} < ${2:n}; ${1:i}++) {$3",
   "}",
   ]
   },
@@ -56,7 +56,7 @@
   "for (auto $e : vec)": {
   "prefix": "fore",
   "body": [
-  "for (auto &e : ${1:array}) cin >> e;",
+  "for (auto &e : ${1:array}) cin >> e;$2",
   ]
   },
 
@@ -74,7 +74,7 @@
   "#include <bits/stdc++.h>": {
   "prefix": "ii",
   "body": [
-  "#include <bits/stdc++.h>$1"
+  "#include <bits/stdc++.h>"
   ]
   },
 
@@ -88,7 +88,7 @@
   "typedef": {
   "prefix": "typ",
   "body": [
-  "typedef ${1:long long ll};$1"
+  "typedef ${1:long long ll};"
   ]
   },
 
@@ -291,7 +291,7 @@
   "#define sbl(x, b) (x << b)",
   "#define sbr(x, b) (x >> b)",
   "#define ll long long int",
-  "#define MAX (int) 1e6$1+7",
+  "#define MAX (int) 1e6+7$1",
   "#define eb emplace_back",
   "#define mxe max_element",
   "#define mne min_element",
@@ -329,8 +329,6 @@
   "    █▄█ ▀▀▀▀ ▀▀▀ ─▀▀▀ ▀▀▀ ▀─▀▀ ▀▀▀▀ ▀───▀",
   "    created: ${CURRENT_DATE}/${CURRENT_MONTH}/${CURRENT_YEAR_SHORT} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
   "**/",
-  "#pragma GCC optimize(\"O3,unroll-loops\")",
-  "",
   "#include <bits/stdc++.h>",
   "",
   "using namespace std;",
@@ -374,5 +372,5 @@
   "\treturn 0;",
   "}"
   ]
-  },
+  }
 }
