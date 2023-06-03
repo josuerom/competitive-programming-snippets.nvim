@@ -1,7 +1,7 @@
 {
   "name": "snippets-cp.nvim",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.78.2"
   },
   "contributes": {
     "snippets": [
@@ -20,15 +20,6 @@
       {
         "language": "python",
         "path": "./snippets/python.json"
-      },
-      {
-        "language": [
-          "javascript",
-          "typescript",
-          "javascriptreact",
-          "typescriptreact"
-        ],
-        "path": "./snippets/javascript.json"
       }
     ]
   }
