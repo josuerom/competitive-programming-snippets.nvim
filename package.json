@@ -1,7 +1,7 @@
 {
-  "name": "snippets-cp.nvim",
+  "name": "competitive-programming-snippets.nvim",
   "engines": {
-    "vscode": "^1.78.2"
+    "vscode": "^1.80.0"
   },
   "contributes": {
     "snippets": [
